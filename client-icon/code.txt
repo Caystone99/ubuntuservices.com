@@ -1,0 +1,608 @@
+
+#social{
+    background-color:rgba(0, 0, 0, 0.027);
+    width:100%;
+    position: fixed;
+    z-index:2;
+    top:0;
+}
+.social-item{
+    color:#fff;
+    padding:15px 14px;
+    font-size:20px;
+    text-align:center;
+}
+.social-item:hover{
+    color:#c4c4c4;
+    transition-duration: 0.9s;
+}
+#nav-bar{
+    width:100%;
+    background-color:#585570;
+    position:fixed;
+    z-index:1;
+    top:0;
+}
+
+#nav-bar a{
+    padding:18px 14px;
+    color:#f8f8f8;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.897), inset 0 0 0 4px rgba(255, 255, 255, 0.8);
+}
+
+#nav-bar a:hover{
+    color:rgba(0, 0, 0, 0.342);
+    transition-duration: 0.9s;
+}
+
+.nav-logo{
+    float:left;
+    display:block;
+}
+.nav-item{
+    float:right;
+    display:block;
+}
+
+#dropdown-menu{
+    position:absolute;
+    display:none;
+    width:100%;
+    padding:30px;
+    position:fixed;
+
+    background-color:#585570d2;
+}
+
+.drop-menu{
+    margin:15px;
+}
+.drop-item {
+    font-size:18px;
+    font-weight: bold;
+    color:#fff;
+    margin:15px;
+    display:block;
+    text-align:left;
+}
+
+.drop-item:hover{
+    color:rgba(0, 0, 0, 0.952);
+
+}
+
+#banner{
+    width:100%;
+    height:500px;
+    text-align: center;
+    background-color:#585570;
+    background-image:url("../icons/da_img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-txt{
+    padding:200px;
+    font-size:30px;
+    color:#585570;
+}
+
+#why{
+    width:100%;
+    height:auto;
+    text-align:center;
+    background-color:#fff;
+}
+.why-items{
+    padding:100px;
+}
+
+.why-items p{
+    font-weight: bold;
+    font-size:20px;
+    color:#585570;
+}
+#testimonial{
+    width:100%;
+    text-align: left;
+    background-color: #585570d2;
+}
+.test-mony{
+    padding:60px 50px;
+}
+
+.test-txt{
+    font-size:30px;
+    margin:30px;
+    color:#fff;
+}
+
+.test-item{
+    display:inline-flex;
+    font-size:18px;
+    font-weight: bold;
+    color:#fff;
+    width:250px;
+    margin:30px;
+}
+
+#client{
+    width:100%;
+    height:auto;
+}
+
+.client-item{
+    padding:100px;
+    text-align:center;
+}
+
+.client-txt{
+    font-size:30px;
+    margin:30px;
+    color:#585570d2;
+}
+
+.clients{
+    margin:30px;
+}
+
+#footer{
+    width:100%;
+    height:auto;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: #585570d2;
+ 
+}
+
+.footer-item{
+    padding:20px 30px;
+    display:block;
+    text-align:center;
+}
+
+.footer-item h4{
+    font-size:25px;
+    margin:30px;
+    color:#fff;
+}
+
+
+.news-box{
+
+}
+.news{
+    width:220px;
+    height:30px;
+    padding:5px;
+}
+
+.btn{
+    border:0px;
+    padding:10px;
+    background-color: #585570d2;
+    color:#fff;
+    font-size:20px;
+}
+
+.footer-item p{
+    color:#fff;
+}
+
+
+
+@media (min-width:300px) and (max-width:520px){
+    body{
+        margin:0;
+    }
+    .social-item{
+        color:#fff;
+        padding:14px 8px;
+        font-size:15px;
+        text-align:center;
+    }
+
+    #nav-bar a{
+        padding:14px 12px;
+    }
+
+    #dropdown-menu{
+        padding:15px;
+    }
+    .drop-item {
+        font-size:18px;
+    }
+
+
+#banner{
+    width:100%;
+    height:400px;
+    text-align: center;
+    background-color:#585570;
+    background-image:url("../icons/da_img.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-txt{
+    padding:20px;
+    font-size:30px;
+    color:#585570;
+}
+
+#why{
+    width:100%;
+    height:400px;
+    background-image:url("../icons/us-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align:center;
+    background-color:#fff;
+}
+.why-items{
+    padding:10px;
+}
+
+.why-items p{
+    font-weight: bold;
+    font-size:10px;
+    color:#585570;
+}
+#testimonial{
+    width:100%;
+    text-align: left;
+    background-color: #585570d2;
+}
+.test-mony{
+    padding:20px 10px;
+}
+
+.test-txt{
+    font-size:30px;
+    margin:30px;
+    color:#fff;
+}
+
+.test-item{
+    display:inline-flex;
+    font-size:18px;
+    font-weight: bold;
+    color:#fff;
+    width:250px;
+    margin:30px;
+}
+
+#client{
+    width:100%;
+    height:auto;
+}
+
+.client-item{
+    padding:100px;
+    text-align:center;
+}
+
+.client-txt{
+    font-size:30px;
+    margin:30px;
+    color:#585570d2;
+}
+
+.clients{
+    margin:30px;
+}
+
+#footer{
+    width:100%;
+    height:auto;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: #585570d2;
+ 
+}
+
+.footer-item{
+    padding:20px 30px;
+    display:block;
+    text-align:center;
+}
+
+.footer-item h4{
+    font-size:25px;
+    margin:30px;
+    color:#fff;
+}
+
+
+.news-box{
+
+}
+.news{
+    width:220px;
+    height:30px;
+    padding:5px;
+}
+
+.btn{
+    border:0px;
+    padding:10px;
+    background-color: #585570d2;
+    color:#fff;
+    font-size:20px;
+}
+
+.footer-item p{
+    color:#fff;
+}
+
+
+
+
+
+
+    <div id="why">
+        <div class="why-items">
+            
+            <p>A leading Behaviour Change and Digital Media Communications Company.</p>
+        </div>
+    </div>
+
+    <div id="testimonial">
+        <div class="test-mony">
+            <h4 class="test-txt">What We Do</h4>
+            <p class="test-item">Advertising & Marketing</p>
+            <p class="test-item">Branding</p>
+            <p class="test-item">Content Management</p>
+            <p class="test-item">Design & Content Creation</p>
+            <p class="test-item">Web, Mobile & Software Development</p>
+            <p class="test-item">Search Engine Optimisation</p>
+            <p class="test-item">Service Recommendation</p>
+            <p class="test-item">Project Management</p>
+        </div>
+    </div>
+
+
+    <div id="client">
+        <div class="client-item">
+            <h4 class="client-txt">Very Satisfied Clients</h4>
+            <a href="#" class="clients"><img src="client-icon/estam-logo2.png" width="100px" height="auto"></a>
+            <a href="#" class="clients"><img src="client-icon/va3.png" width="100px" height="auto"></a>
+        </div>
+    </div>
+
+
+    <div id="footer">
+        <div class="footer-item">
+                <h4>Join Our Newsletter</h4>
+            <form action="mailto:ubuntuservices@gmail.com" method="post">
+                    <input type="email" class="news" placeholder="Get Latest Contents and Updates"><button type="submit" class="btn"><i class="fa fa-paper-plane"></i></button>
+            </form>
+
+            <p>&copy; UbuntuServices.com - All rights reserved 2020</p>
+        </div>
+    </div>
+
+
+
+
+
+CREATE TABLE `ACC_100`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE `BUS_100`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL    
+);
+
+CREATE TABLE `BFN_100`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL    
+);
+
+CREATE TABLE `CSC_100`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE `ECN_100`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE `EVS_100`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE `GNS_100`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE `IRS_100`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE `MCM__100`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE `PAD__100`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE `POL_100`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE `SOC_100`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+
+CREATE TABLE `ACC_200`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE `BUS_200`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL    
+);
+
+CREATE TABLE `BFN_200`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL    
+);
+
+CREATE TABLE `CSC_200`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE `ECN_200`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE `EVS_200`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE `GNS_200`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE `IRS_200`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE `MCM__200`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE `PAD__200`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE `POL_200`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE `SOC_200`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+
+
+CREATE TABLE `ACC_300`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE `BUS_300`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL    
+);
+
+CREATE TABLE `BFN_300`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL    
+);
+
+CREATE TABLE `CSC_300`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE `ECN_300`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE `EVS_300`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE `GNS_300`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE `IRS_300`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE `MCM__300`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE `PAD__300`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE `POL_300`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE `SOC_300`(
+	ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    matric_num VARCHAR(100) NOT NULL,
+    clearance VARCHAR(100) NOT NULL
+);

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UbuntuServices</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="shortcut icon" href="icons/us-icon.png" type="image/x-icon">
+</head>
+<body>
+    <!-- NAVIGATION-->
+    <nav id="nav-bar">
+        <a href="index.html" class="nav-logo"><img src="icons/us-icon.png" width="30px" height="auto"></a>
+        <a class="nav-item" id="drop-btn" onclick="menu()"><i class = "fa fa-ellipsis-h"></i></a>
+    </nav>
+    <div id="dropdown-menu">
+        <div class="drop-menu">
+            <a href="about.html" class="drop-item">About Us</a>
+            <a href="services.html" class="drop-item">Services</a>
+            <a href="#" class="drop-item">Get a Proposal</a>
+        </div>
+    </div>
+    <!--NAVIGATION END-->
+
+
+    <div id="prop-form">
+        
+        <form>
+            <h2>Get a Proposal From Us</h2>
+            <input type="text" class="prop-form-input" placeholder="What's your name?" required/><br>
+            <input type="text" class="prop-form-input" placeholder="What's your business name?"/><br>
+            <input type="text" class="prop-form-input" placeholder="What's your email?"/><br>
+            <input type="text" class="prop-form-input" placeholder="What's your phone number?" required/><br>
+            <input type="text" class="prop-form-input" placeholder="What's your website?"/><br>
+            <input type="text" class="prop-form-input" placeholder="Tell us about your business.."/><br>
+            <select class="prop-form-select">
+                <option>What are you enquiring about?</option>
+                <option>All our services</option>
+                <option><i class="fa fa-tv"></i> Advertising</option>
+                <option><i class="fab fa-instagram"></i> Branding</option>
+                <option><i class="fas fa-paint"></i> Design & Content Creation</option>
+                <option><i class="fas fa-network-wired"></i> Digital Marketing</option>
+                <option><i class="fab fa-google"></i> Search Engine Optimisation</option>
+                <option><i class="fas fa-code"></i> Web, Mobile & Software Development</option>
+            </select>
+            <br>
+            <button class="prop-btn" name="submit" type="submit">SEND ME MY PROPOSAL</button>
+
+            <div class="prop-contact">
+                <h3>Prefer to call?</h3>
+                <p>Reach us directly on <br><span class="prop-numb">+234(0)7066674738.</span></p>
+            </div>
+
+        </form>
+    </div>
+
+    
+
+
+
+    <div id="footer">
+        <div class="footer-item">
+            <h4>Join Our Newsletter</h4>
+            <form action="mailto:ubuntuservices@gmail.com" method="post">
+                <input type="email" class="news" placeholder="Get Latest Contents and Updates"><button type="submit" name="submit" class="btn"><i class="fa fa-paper-plane"></i></button>
+            </form>
+            
+
+            <p>&copy; UbuntuServices.com - All rights reserved 2020</p>
+            <div id="social">
+                    <a href="#" class="social-item"><i class="fab fa-facebook-messenger "></i></a>
+                    <a href="#" class="social-item"><i class="fab fa-instagram "></i></a>
+                    <a href="#" class="social-item"><i class="fab fa-twitter "></i></a>
+                    <a href="#" class="social-item"><i class="fa fa-envelope"></i></a>
+                    <a href="#" class="social-item"><i class="fa fa-mobile-alt"></i></a>
+                </div>
+        </div>
+    </div>
+
+
+
+</body>
+<script src="fontawesome/js/all.js"></script>
+<script src="js/main.js"></script>
+</html>
